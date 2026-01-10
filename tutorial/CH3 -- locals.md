@@ -1,14 +1,13 @@
 # CH3 -- locals.md
 ## CH3-1 -- define a local variable
-To define a local variable, define a block with `locals` type.
+To define a local variable and references with the evaluated result of expression, define a block with `locals` type.
 
 syntax:
 
 ```
-# define a variable named `<variable-name>` with type `<variable-type>` and default value `<variable-value>`
-variable "<variable-name>" {
-  type    = <variable-type>
-  default = <variable-value>
+# define a variable named `<variable-name>` with type `<variable-type>` with the evaluated result of expression -- `<expression>`
+locals {
+  <variable-name> = <expression>
 }
 ```
 
