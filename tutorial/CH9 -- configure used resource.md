@@ -20,4 +20,4 @@ resource "<resource-type>" "<local-resource-name>" {
 
 Replace `<resource-type>` to the resource type.
 
-Replace `<local-resource-name>` to a descriptive name as an alias of local resource name (used for reference in code or configuration file)
+Replace `<local-resource-name>` to a descriptive name as an alias of local resource name (used for reference in codespace or configuration file)
