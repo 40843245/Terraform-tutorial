@@ -6,12 +6,12 @@ You will learn how to
 
 ## CH7-1 -- configure requirements for Terraform
 ### `terraform` block
-`terraform` block contains the configureation and its requirement for Terraform
+`terraform` block contains the configureations and its requirements for Terraform
 
 syntax:
 
 ```
 terraform {
-// ... 
+# ... define more configurations and its requirements
 }
 ```
