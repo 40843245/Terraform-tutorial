@@ -14,8 +14,18 @@ The overriding precedence (from lowest to highest) of an environment variable is
 5. use command-line flags in `terraform apply` command. Assigning enviroment variable with `-var` option, assigning file name with `-var-file` (it will parse it from left to right)
 
 ## CH5-2 -- override an environment variable
-Defining a variable named `<variable-name>` (replace `<variable-name>` as a valid identifier) in `*.tf` will define a variable named `TF_VAR_<variable-name>` by `Terraform parser` when executing `terraform apply` command.
+As expained in CH4 
 
-Assigning a variable named `<variable-name>` (replace `<variable-name>` as a valid identifier) in `terraform.tfvars` `terraform.tfvars.json`, `*.auto.tfvars`, `*.auto.tfvars.json` will also assign a variable named `TF_VAR_<variable-name>` by `Terraform parser` when executing `terraform apply` command.
+```
+Since the Terraform parse will try to remove the prefix TF_VAR_ for all environment variable in this session of this shell and then parse it
+
+(if the environment variable in this session after removal matches the environment variable defined in *.tf file) 
+```
+
+You can override it through setting `TF_VAR_<variable-name>` in this session of shell (replace `<variable-name>` to a variable name defined in `.*tf` file) 
+
+Assigning a variable named `<variable-name>` (replace `<variable-name>` to a variable name defined in `.*tf` file) 
+
+in `terraform.tfvars` `terraform.tfvars.json`, `*.auto.tfvars`, `*.auto.tfvars.json` will also assign a variable named `TF_VAR_<variable-name>` by `Terraform parser` when executing `terraform apply` command.
 
 Look at examples for details.
