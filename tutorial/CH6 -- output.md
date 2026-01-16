@@ -1,10 +1,10 @@
-# CH5 -- output
+# CH6 -- output
 ## objectives
 You will learn how to
 
   + stream outputs to specific file when automatically executing `*.tf` file
 
-## CH5-1 -- stream outputs to specific file automatically
+## CH6-1 -- stream outputs to specific file automatically
 ### resource
 To stream outputs to specific file automatically, you can think that it is equivalent to download a file into local device.
 
