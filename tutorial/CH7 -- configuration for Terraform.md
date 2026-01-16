@@ -12,6 +12,6 @@ syntax:
 
 ```
 terraform {
-
+// ... 
 }
 ```
