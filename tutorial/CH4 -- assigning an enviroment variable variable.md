@@ -63,3 +63,6 @@ Replace `<value>` to the value to set an environment variable named `<environmen
 > the highest overriding precedence will win.
 >
 > See CH5 for more details.
+
+> [!NOTE]
+> When the variable is NOT overridden, it will use default value (in `default` attribute) if it has, or the shell will prompt you to enter value if it doesn't have (which is bad scenario for CI/CD) 
