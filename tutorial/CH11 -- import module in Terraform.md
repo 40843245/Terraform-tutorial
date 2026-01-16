@@ -19,4 +19,6 @@ module "<alias-name>" {
 }
 ```
 
-<alias-name>
+Replace `<alias-name>` to the alias name of imported module.
+
+Replace `<module-path>` relative to
