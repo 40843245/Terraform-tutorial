@@ -8,4 +8,15 @@ You will learn how to
 ### `data` block
 In `data` block, current available data resource that are not managed by Terraform can be accessed, but it can't be modified. 
 
-Data resources are readobnly.    
+Data resources are readonly.
+
+syntax:
+
+```
+data "<data-resource-want-to-be-accessed>" "<alias-name>" {
+}
+```
+
+Replace `<data-resource-want-to-be-accessed>` to the data resource that you want to access.
+
+Replace `<alias-name>` to a descriptive name to the access of data resource.
