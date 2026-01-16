@@ -14,7 +14,7 @@ syntax:
 
 ```
 resource "<resource-type>" "<local-resource-name>" {
-  // ...
+  # ... pass arguments of resource
 }
 ```
 
