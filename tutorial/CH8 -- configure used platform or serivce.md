@@ -12,7 +12,7 @@ syntax:
 
 ```
 provider "<provider-name>" {
-  // ...
+  # ... tell the Terraform more info it needs about providers info
 }
 ```
 
