@@ -46,3 +46,11 @@ or data type (non-primitive type)
 
 + list(T) : List<T> in `C#` where T is one of accepted type in Terraform.
 + map(T) : `Dictionary<string,T>` in `C#` where T is one of accepted type in Terraform.
+
+## CH2-4 -- validation of a variable
+The validation subblock must have exactly two attributes `condition` and `error_message`.
+
+| attributes | description |
+| :-- | :-- |
+| `condition` | when the given condition is NOT met, it will throw an error. Like `Assert.failed` in `xUnit` package in `C#` |
+| `error_message` | error message displayed when error is thrown. |
