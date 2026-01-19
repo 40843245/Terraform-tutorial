@@ -15,3 +15,11 @@ terraform {
 # ... define more configurations and its requirements
 }
 ```
+
+| attributes | description |
+| :-- | :-- |
+| `required_version` | The version of Terraform needed to configure Terraform. |
+
+| subsection | description |
+| :-- | :-- |
+| `required_providers` | specify provider's version |
