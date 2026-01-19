@@ -23,3 +23,4 @@ terraform {
 | subsection | description |
 | :-- | :-- |
 | `required_providers` | specify provider's version |
+| `backend` | specify storage location of State |
