@@ -17,3 +17,9 @@ provider "<provider-name>" {
 ```
 
 Replace `<provider-name>` to the platform name or service name.
+
+Available attributes are listed as follows and provider's own-defined attribute.
+
+| attributes | description |
+| :-- | :-- |
+| `alias` | The alias of the provider. The alias might be used in resource block (format: `<provider_name>.<alias>`) or in providers subblock in module block (format: `<provider_name>.<alias>`) |
