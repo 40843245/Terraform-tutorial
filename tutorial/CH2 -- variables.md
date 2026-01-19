@@ -22,3 +22,27 @@ var.<variable-name>
 ```
 
 Replace `<variable-name>` to `variable name`
+
+| attributes | description |
+| :-- | :-- |
+| `type` | specific the type of the variable |
+| `default` | default value |
+| `description` | the description of the variable |
+| `sensitive` | If true, it is NOT shown in log file |
+
+| subsection | description |
+| :-- | :-- |
+| `validation` | defines the validation rule. |
+
+## CH2-3 -- available type
+A variable in Terraform can be primitive type
+
++ string : string in `C#`
++ number : integer in `C#` + double in `C#`
++ bool : bool in `C#`
++ object : object in `C#`
+
+or data type (non-primitive type)
+
++ list(T) : List<T> in `C#` where T is one of accepted type in Terraform.
++ map(T) : `Dictionary<string,T>` in `C#` where T is one of accepted type in Terraform.
