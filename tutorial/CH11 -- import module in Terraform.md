@@ -22,3 +22,10 @@ module "<alias-name>" {
 Replace `<alias-name>` to the alias name of imported module.
 
 Replace `<module-path>` relative to
+
+| attributes | description |
+| :-- | :-- |
+| `source` | path of module for importing. |
+| `version` | version of module for importing. |
+
+And parameter defined in the module.
