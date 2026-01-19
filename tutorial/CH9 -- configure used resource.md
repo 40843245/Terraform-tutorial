@@ -21,3 +21,12 @@ resource "<resource-type>" "<local-resource-name>" {
 Replace `<resource-type>` to the resource type.
 
 Replace `<local-resource-name>` to a descriptive name as an alias of local resource name (used for reference in codespace or configuration file)
+
+| attributes | description |
+| :-- | :-- |
+| `for_each` | similar to foreach loop in `C#` |
+| `count` | similar to `for(int index=0;index<n;i++)` given n in `C#`. |
+| `depends_on` | specify the resource depends on |
+| `lifecycle` | defines the resource's lifecycle |
+
+Available subsection according to resource type.
