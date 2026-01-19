@@ -14,9 +14,14 @@ syntax:
 
 ```
 data "<data-resource-want-to-be-accessed>" "<alias-name>" {
+  # ... zero or more filters (using filter blocks)
 }
 ```
 
 Replace `<data-resource-want-to-be-accessed>` to the data resource that you want to access.
 
 Replace `<alias-name>` to a descriptive name to the access of data resource.
+
+| subsection | description |
+| :-- | :-- |
+| `filter` | filters by given conditions. |
